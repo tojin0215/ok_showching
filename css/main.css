@@ -37,6 +37,7 @@
   letter-spacing: 0.17em;
   font-size: 20.48pt;
   line-height: 44.9pt;
+  margin: 0;
 }
 
 .main-content__slogan strong {
@@ -54,19 +55,22 @@
   border-radius: 50%;
   background-color: #000;
 }
-
 .main-content__head-box {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
 }
 
 .main-content__header1 {
   font-size: 36.02pt;
-  line-height: 54px;
+  line-height: 48px;
   font-weight: bold;
   letter-spacing: -0.04em;
   margin: 0;
+  background: linear-gradient(to right, #93332f, #232323);
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px;
 }
 
 .main-content__header2 {
@@ -75,11 +79,14 @@
   font-weight: bold;
   letter-spacing: -0.04em;
   margin: 0;
+  background: linear-gradient(to right, #93332f, #232323);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .main-content__name {
   font-size: 78.58pt;
-  line-height: 95.28pt;
+  line-height: 68.28pt;
   color: #ef4a42;
   font-weight: bold;
   letter-spacing: -0.05em;
@@ -87,8 +94,8 @@
 }
 
 .main-content__ment-box {
-  font-size: 15.44pt;
-  line-height: 26.14pt;
+  font-size: 14.44pt;
+  line-height: 22.14pt;
   display: flex;
 }
 
@@ -97,8 +104,14 @@
   height: 120px;
 }
 
+.main-content__ment-box img {
+  width: 52px;
+  height: fit-content;
+}
+
 .main-content__ment-box p {
   padding: 0;
+  margin: 4px 0;
   text-align: center;
   letter-spacing: -0.02em;
 }
@@ -107,7 +120,7 @@
   display: flex;
   flex-flow: column;
   align-items: flex-end;
-  padding-top: 220px;
+  padding-top: 190px;
   padding-bottom: 40px;
 }
 
@@ -118,6 +131,7 @@
 
 .download--ment {
   width: 370px;
+  margin: 4px;
   font-family: NanumSquare;
   font-size: 13.74pt;
   font-weight: bold;
@@ -127,7 +141,7 @@
 .main-visual--man {
   height: 550px;
   position: absolute;
-  top: 10px;
+  top: -26px;
   left: 50%;
   transform: translateX(-50%);
   margin-left: 240px;
@@ -136,7 +150,7 @@
 .main-visual--woman {
   height: 524px;
   position: absolute;
-  top: 464px;
+  top: 366px;
   left: 50%;
   transform: translateX(-50%);
   margin-left: -190px;
