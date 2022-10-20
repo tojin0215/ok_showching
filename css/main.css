@@ -198,9 +198,28 @@
 .main_press {
   display: flex;
   justify-content: space-between;
+  padding-top: 38px;
 }
 .main_press h3 {
+  font-size: 50pt;
   text-align: center;
+}
+.main_press h4 {
+  font-size: 24pt;
+  margin-bottom: 48px;
+}
+.main_press p {
+  margin-bottom: 42px;
+}
+
+.main_press li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main_press li img {
+  float: right;
 }
 
 .main_press ul li {
@@ -225,15 +244,21 @@
 .fmenu li {
   float: left;
   margin-right: 23px;
+  padding: 23px;
+  border-right: 1px soild #111;
 }
+.fmenu li:last-child {
+  border-right: 0;
+}
+
 .flogo {
   position: absolute;
-  left: 440px;
-  top: 30px;
+  right: 0;
+  top: 50px;
 }
 .flogo li {
   float: left;
-  margin-left: 10px;
+  margin-left: 55px;
 }
 
 /* 모바일 720--------- */
@@ -272,30 +297,22 @@
     height: 146px;
     margin-bottom: 50px;
   }
-  .main_press li img {
-    float: right;
-  }
 
   /* footer */
   #footer {
     margin-top: 56px;
   }
   #footerIn {
-    position: relative;
     width: 1250px;
     padding-top: 61px;
   }
   .fmenu li {
     float: left;
     margin-right: 19px;
-    font-size: 24.18pt;
+    font-size: 20pt;
   }
 
-  .flogo {
-    right: 0;
-    top: 50px;
-  }
   .flogo li {
-    margin-left: 10px;
+    margin-left: 45px;
   }
 }
