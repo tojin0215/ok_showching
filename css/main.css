@@ -159,6 +159,34 @@
   position: absolute;
 }
 
+/* 메인 서비스 소개 */
+.main_service ul {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 90px;
+}
+
+.main_service ul li {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.main_service img {
+  width: 330px;
+}
+
+.main_service strong {
+  color: #ef4a42;
+  font-size: 44.38pt;
+}
+
+.main_service p {
+  font-size: 25.47pt;
+  text-align: center;
+}
+
 #container .container {
   width: 660px;
   margin: 0 auto;
