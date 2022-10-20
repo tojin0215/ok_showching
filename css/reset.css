@@ -17,8 +17,8 @@
 
 html {
   font-family: -apple-system, BlinkMacSystemFont,
-    /* 한글 폰트 들어갈 자리 */ 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    /* 한글 폰트 들어갈 자리 */ 'GmarketSansMedium', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   /* `font` 속성 리셋 */
   font-size: 16px;
