@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 @font-face {
   font-family: 'GmarketSansMedium';
@@ -7,6 +8,21 @@
   font-style: normal;
 }
 
+/* 모바일 720 */
+.wrap {
+  width: 100%;
+  min-width: 720;
+}
+/* 모바일 720--------- */
+@media screen and (min-width: 1250px) {
+  #footer {
+  }
+  #footerIn {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+/* 웹 1250-------  */
 .header__logo {
   text-align: center;
 }
