@@ -98,6 +98,9 @@
 }
 
 /* footer720 */
+#footer {
+  margin-top: ;
+}
 
 /* 모바일 720--------- */
 @media screen and (min-width: 1250px) {
@@ -108,7 +111,7 @@
   .main_press {
     padding: 93px 0 84px;
   }
-  
+
   .main_press ul {
     display: flex;
     justify-content: space-between;
@@ -123,19 +126,20 @@
   }
   .main_press h3 {
     font-size: 50pt;
-    margin-bottom:35px;
+    margin-bottom: 35px;
     text-align: center;
   }
   .main_press h4 {
     font-size: 20pt;
     text-align: left;
   }
-  .main_press p{
-    height:146px;
-    margin-bottom:50px;
+  .main_press p {
+    height: 146px;
+    margin-bottom: 50px;
   }
-  .main_press li img{float:right;}
-
+  .main_press li img {
+    float: right;
+  }
 
   /* footer */
   #footer {
@@ -162,3 +166,4 @@
     float: left;
     margin-left: 10px;
   }
+}
