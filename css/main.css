@@ -6,7 +6,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+.pc {
+  display: none;
+}
 /* 모바일 720 */
 .wrap {
   width: 100%;
@@ -15,11 +17,15 @@
 
 .header__logo {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0;
+}
+
+.header__logo {
+  margin: 0;
 }
 
 .main-content {
-  padding-top: 36px;
+  padding-top: 66px;
   overflow: hidden;
 }
 
@@ -208,14 +214,65 @@
 
 /* 모바일 720--------- */
 @media screen and (min-width: 1250px) {
+  .pc {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .container {
+    max-width: 1250px;
+  }
+
+  .main-content {
+    padding-top: 120px;
+  }
+
+  .main-visual--man {
+    width: auto;
+    height: auto;
+    top: -110px;
+    margin-left: 260px;
+  }
+
+  .main-visual--woman {
+    height: auto;
+    top: 0;
+    left: 100%;
+    margin-left: -140px;
+  }
+
+  .download-box {
+    flex-flow: row;
+    padding-top: 60px;
+    flex-wrap: wrap;
+    max-width: 560px;
+  }
+
+  .download-box img {
+    height: auto;
+    width: 280px;
+  }
+
+  .download--ment {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main_service ul {
+    flex-flow: row;
+  }
+
   #container .container {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
   }
   .main_press {
     padding: 93px 0 84px;
   }
-  
+
   .main_press ul {
     display: flex;
     justify-content: space-between;
@@ -230,19 +287,20 @@
   }
   .main_press h3 {
     font-size: 50pt;
-    margin-bottom:35px;
+    margin-bottom: 35px;
     text-align: center;
   }
   .main_press h4 {
     font-size: 20pt;
     text-align: left;
   }
-  .main_press p{
-    height:146px;
-    margin-bottom:50px;
+  .main_press p {
+    height: 146px;
+    margin-bottom: 50px;
   }
-  .main_press li img{float:right;}
-
+  .main_press li img {
+    float: right;
+  }
 
   /* footer */
   #footer {
@@ -269,3 +327,4 @@
     float: left;
     margin-left: 10px;
   }
+}
