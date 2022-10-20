@@ -5,6 +5,25 @@
   width: 100%;
   min-width: 720px;
 }
+#container .container {
+  width: 660px;
+  margin: 0 auto;
+}
+/* main_press 720 */
+.main_press {
+  background-color: #f0f0f0;
+}
+.h3 {
+}
+.main_press ul li {
+  background-color: #fff;
+  width: 554px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
 /* footer720 */
 #footer {
   margin-top: 38px;
@@ -42,6 +61,11 @@
 
 /* 모바일 720--------- */
 @media screen and (min-width: 1250px) {
+  #container .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  /* footer */
   #footer {
     margin-top: 56px;
   }
