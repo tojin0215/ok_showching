@@ -203,6 +203,13 @@
 .main_press {
   background-color: #f0f0f0;
 }
+.main_press {
+  display: flex;
+  justify-content: space-between;
+}
+.main_press h3 {
+  text-align: center;
+}
 
 .main_press ul li {
   background-color: #fff;
@@ -213,6 +220,29 @@
 }
 
 /* footer720 */
+#footer {
+  margin-top: 57px;
+}
+#footerIn {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 60px;
+}
+.fmenu li {
+  float: left;
+  margin-right: 23px;
+}
+.flogo {
+  position: absolute;
+  left: 440px;
+  top: 30px;
+}
+.flogo li {
+  float: left;
+  margin-left: 10px;
+}
 
 /* 모바일 720--------- */
 @media screen and (min-width: 1250px) {
@@ -296,7 +326,7 @@
   .main_press ul li {
     position: relative;
     width: 402px;
-    margin-right: 24px;
+    margin-right: 23px;
   }
   .main_press ul li:last-child {
     margin-right: 0;
@@ -325,22 +355,19 @@
   #footerIn {
     position: relative;
     width: 1250px;
-    margin: 0 auto;
-    border-top: 1px solid #f0f0f0;
     padding-top: 61px;
   }
   .fmenu li {
     float: left;
-    margin-right: 10px;
+    margin-right: 19px;
+    font-size: 24.18pt;
   }
 
   .flogo {
-    position: absolute;
     right: 0;
     top: 50px;
   }
   .flogo li {
-    float: left;
     margin-left: 10px;
   }
 }
