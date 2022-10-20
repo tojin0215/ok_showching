@@ -150,9 +150,9 @@
   font-family: NanumSquare;
   display: flex;
   justify-content: center;
-  font-size: 40pt;
+  font-size: 32pt;
   letter-spacing: -0.02em;
-  line-height: 52.66pt;
+  line-height: 42.66pt;
   color: #fff;
   font-weight: bold;
   margin: 0;
@@ -186,10 +186,12 @@
 .main_service strong {
   color: #ef4a42;
   font-size: 44.38pt;
+  letter-spacing: -0.05em;
 }
 
 .main_service p {
   font-size: 25.47pt;
+  letter-spacing: -0.02em;
   text-align: center;
 }
 
@@ -263,6 +265,19 @@
 
   .main_service ul {
     flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .main_service img {
+    width: auto;
+  }
+
+  .main_service strong {
+    font-size: 28.33pt;
+  }
+
+  .main_service p {
+    font-size: 14.85pt;
   }
 
   #container .container {
@@ -281,6 +296,7 @@
   .main_press ul li {
     position: relative;
     width: 402px;
+    margin-right: 24px;
   }
   .main_press ul li:last-child {
     margin-right: 0;
