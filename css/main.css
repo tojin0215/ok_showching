@@ -88,51 +88,16 @@
 .main_press {
   background-color: #f0f0f0;
 }
-.h3 {
-}
+
 .main_press ul li {
   background-color: #fff;
   width: 554px;
-  margin: 0 auto;
   border-radius: 8px;
   padding: 40px;
   margin-bottom: 40px;
 }
 
 /* footer720 */
-#footer {
-  margin-top: 38px;
-}
-#footerIn {
-  width: 660px;
-  margin: 0 auto;
-  border-top: 1px solid #f0f0f0;
-  padding-top: 70px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.fmenu li {
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 30px;
-  font-size: 23px;
-}
-.fmenu li:after {
-  content: '';
-  display: inline-block;
-  width: 1px;
-  height: 23px;
-  background: #111;
-  margin-left: 10px;
-}
-.fmenu li:last-child:after {
-  display: none;
-}
-.flogo li {
-  display: inline-block;
-  margin-left: 20px;
-}
 
 /* 모바일 720--------- */
 @media screen and (min-width: 1250px) {
@@ -140,15 +105,60 @@
     width: 1250px;
     margin: 0 auto;
   }
+  .main_press {
+    padding: 93px 0 84px;
+  }
+  
+  .main_press ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main_press ul li {
+    position: relative;
+    width: 402px;
+  }
+  .main_press ul li:last-child {
+    margin-right: 0;
+  }
+  .main_press h3 {
+    font-size: 50pt;
+    margin-bottom:35px;
+    text-align: center;
+  }
+  .main_press h4 {
+    font-size: 20pt;
+    text-align: left;
+  }
+  .main_press p{
+    height:146px;
+    margin-bottom:50px;
+  }
+  .main_press li img{float:right;}
+
+
   /* footer */
   #footer {
     margin-top: 56px;
   }
   #footerIn {
+    position: relative;
     width: 1250px;
     margin: 0 auto;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 61px;
   }
-  .fmenu {
+  .fmenu li {
+    float: left;
+    margin-right: 10px;
   }
-}
-/* 웹 1250-------  */
+
+  .flogo {
+    position: absolute;
+    right: 0;
+    top: 50px;
+  }
+  .flogo li {
+    float: left;
+    margin-left: 10px;
+  }
