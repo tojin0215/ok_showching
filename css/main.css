@@ -1,5 +1,20 @@
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .header__logo {
   text-align: center;
+}
+
+.main-content__slogan {
+  font-family: GmarketSansMedium;
+  letter-spacing: 0.17em;
+  font-size: 34pt;
+}
+.main-content__slogan {
 }
