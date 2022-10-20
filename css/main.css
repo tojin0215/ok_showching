@@ -75,6 +75,12 @@
   padding: 0 24px;
 }
 
+.main-visual--man {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* footer720 */
 #footer {
   margin-top: 38px;
