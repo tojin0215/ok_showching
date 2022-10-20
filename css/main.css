@@ -1,9 +1,84 @@
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* 모바일 720 */
 .wrap {
   width: 100%;
   min-width: 720px;
+}
+
+.header__logo {
+  text-align: center;
+}
+
+.main-content__slogan {
+  letter-spacing: 0.17em;
+  font-size: 26.48pt;
+  line-height: 44.9pt;
+}
+
+.main-content__slogan strong {
+  position: relative;
+  display: inline-block;
+}
+
+.text-deco-ellipse {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.main-content__head-box {
+  display: flex;
+  align-items: center;
+}
+
+.main-content__header1 {
+  font-size: 48.02pt;
+  line-height: 54px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-content__header2 {
+  font-size: 31.96pt;
+  line-height: 74px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-content__name {
+  font-size: 94.58pt;
+  line-height: 95.28pt;
+  color: #ef4a42;
+  font-weight: bold;
+}
+
+.main-content__ment-box {
+  font-size: 18.44pt;
+  line-height: 30.14pt;
+  display: flex;
+}
+
+.main-content__ment-box p {
+  padding: 0 24px;
+}
+
+.main-visual--man {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #container .container {
   width: 660px;
