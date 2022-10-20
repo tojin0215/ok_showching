@@ -10,3 +10,8 @@
   --listening_icon_color: var(--light_red);
   --text_link_color: rgb(17, 85, 204);
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+}

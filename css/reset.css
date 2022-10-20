@@ -17,8 +17,8 @@
 
 html {
   font-family: -apple-system, BlinkMacSystemFont,
-    /* 한글 폰트 들어갈 자리 */ 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    /* 한글 폰트 들어갈 자리 */ 'GmarketSansMedium', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   /* `font` 속성 리셋 */
   font-size: 16px;
@@ -27,7 +27,7 @@ html {
   line-height: 1.5;
   /* 단위 쓰지 말것 */
   background-color: #fff;
-  color: #4d5058;
+  color: #232323;
   /* 글꼴 크기 조정을 방지 */
   -webkit-text-size-adjust: 100%;
   /* 폰트를 부드럽게 */
@@ -78,7 +78,7 @@ a:hover {
 }
 
 a {
-  color: #1e87f0;
+  color: #111;
   text-decoration: none;
   cursor: pointer;
 }
@@ -161,6 +161,13 @@ video {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
+}
+.cf {
+}
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 @supports (display: block) {
@@ -299,6 +306,7 @@ h6,
 
 ul,
 ol {
+  list-style: none;
   padding-right: 0px;
 }
 

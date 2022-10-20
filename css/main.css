@@ -1,0 +1,318 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 모바일 720 */
+.wrap {
+  width: 100%;
+  min-width: 720px;
+}
+
+.header__logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  padding-top: 36px;
+  overflow: hidden;
+}
+
+.main-content > .container {
+  position: relative;
+}
+
+.main-content__slogan {
+  letter-spacing: 0.17em;
+  font-size: 26.48pt;
+  line-height: 44.9pt;
+}
+
+.main-content__slogan strong {
+  position: relative;
+  display: inline-block;
+}
+
+.text-deco-ellipse {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.main-content__head-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.main-content__header1 {
+  font-size: 48.02pt;
+  line-height: 54px;
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.main-content__header2 {
+  font-size: 31.96pt;
+  line-height: 74px;
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.main-content__name {
+  font-size: 94.58pt;
+  line-height: 95.28pt;
+  color: #ef4a42;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+
+.main-content__ment-box {
+  font-size: 18.44pt;
+  line-height: 30.14pt;
+  display: flex;
+}
+
+.main-content__ment-box p {
+  padding: 0 24px;
+  letter-spacing: -0.02em;
+}
+
+.download-box {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  padding-top: 220px;
+  padding-bottom: 40px;
+}
+
+.download-box img {
+  height: 110px;
+  width: 370px;
+}
+
+.download--ment {
+  width: 370px;
+  font-family: NanumSquare;
+  font-size: 16.74pt;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
+.main-visual--man {
+  height: 550px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 360px;
+}
+
+.main-visual--woman {
+  height: 524px;
+  position: absolute;
+  top: 520px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -190px;
+}
+
+/* 가로 띠 배너 */
+.main_line-banner {
+  height: 220px;
+  width: 100%;
+  background-color: #ef4a42;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.main_line-banner p {
+  font-family: NanumSquare;
+  display: flex;
+  justify-content: center;
+  font-size: 40pt;
+  letter-spacing: -0.02em;
+  line-height: 52.66pt;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.banner--deco-line {
+  background-color: #fff;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+}
+
+/* 메인 서비스 소개 */
+.main_service ul {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 90px;
+}
+
+.main_service ul li {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.main_service img {
+  width: 330px;
+}
+
+.main_service strong {
+  color: #ef4a42;
+  font-size: 44.38pt;
+}
+
+.main_service p {
+  font-size: 25.47pt;
+  text-align: center;
+}
+
+#container .container {
+  width: 660px;
+  margin: 0 auto;
+}
+/* main_press 720 */
+.main_press {
+  background-color: #f0f0f0;
+}
+.main_press {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+}
+.main_press h3 {
+  font-size: 50pt;
+  text-align: center;
+}
+.main_press h4 {
+  font-size: 24pt;
+  margin-bottom: 48px;
+}
+.main_press p {
+  margin-bottom: 42px;
+}
+
+.main_press li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main_press li img {
+  float: right;
+}
+
+.main_press ul li {
+  background-color: #fff;
+  width: 554px;
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+/* footer720 */
+#footer {
+  margin-top: 57px;
+}
+#footerIn {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 60px;
+}
+.fmenu li {
+  float: left;
+  margin-right: 23px;
+  padding: 23px;
+  border-right: 1px soild #111;
+}
+.fmenu li:last-child {
+  border-right: 0;
+}
+
+.flogo {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.flogo li {
+  float: left;
+  margin-left: 55px;
+}
+
+/* 모바일 720--------- */
+@media screen and (min-width: 1250px) {
+  #container .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  .main_press {
+    padding: 93px 0 84px;
+  }
+
+  .main_press ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main_press ul li {
+    position: relative;
+    width: 402px;
+    margin-right: 23px;
+  }
+  .main_press ul li:last-child {
+    margin-right: 0;
+  }
+  .main_press h3 {
+    font-size: 50pt;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .main_press h4 {
+    font-size: 20pt;
+    text-align: left;
+  }
+  .main_press p {
+    height: 146px;
+    margin-bottom: 50px;
+  }
+
+  /* footer */
+  #footer {
+    margin-top: 56px;
+  }
+  #footerIn {
+    width: 1250px;
+    padding-top: 61px;
+  }
+  .fmenu li {
+    float: left;
+    margin-right: 19px;
+    font-size: 20pt;
+  }
+
+  .flogo li {
+    margin-left: 45px;
+  }
+}
