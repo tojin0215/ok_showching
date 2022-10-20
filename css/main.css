@@ -1,4 +1,3 @@
-@charset "utf-8";
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 @font-face {
   font-family: 'GmarketSansMedium';
@@ -11,7 +10,7 @@
 /* 모바일 720 */
 .wrap {
   width: 100%;
-  min-width: 720;
+  min-width: 720px;
 }
 
 .header__logo {
@@ -76,13 +75,51 @@
   padding: 0 24px;
 }
 
+/* footer720 */
+#footer {
+  margin-top: 38px;
+}
+#footerIn {
+  width: 660px;
+  margin: 0 auto;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fmenu li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+.fmenu li:after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 23px;
+  background: #111;
+  margin-left: 10px;
+}
+.fmenu li:last-child:after {
+  display: none;
+}
+.flogo li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
 /* 모바일 720--------- */
 @media screen and (min-width: 1250px) {
   #footer {
+    margin-top: 56px;
   }
   #footerIn {
     width: 1250px;
     margin: 0 auto;
+  }
+  .fmenu {
   }
 }
 /* 웹 1250-------  */

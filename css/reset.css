@@ -78,7 +78,7 @@ a:hover {
 }
 
 a {
-  color: #1e87f0;
+  color: #111;
   text-decoration: none;
   cursor: pointer;
 }
@@ -161,6 +161,13 @@ video {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
+}
+.cf {
+}
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 @supports (display: block) {
@@ -299,6 +306,7 @@ h6,
 
 ul,
 ol {
+  list-style: none;
   padding-right: 0px;
 }
 
