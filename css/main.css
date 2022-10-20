@@ -40,9 +40,39 @@
   margin: 0;
 }
 
+.main-content__slogan {
+  background: linear-gradient(to right, #440806, #232323);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .main-content__slogan strong {
   position: relative;
   display: inline-block;
+  background: linear-gradient(to right, #232323, #232323);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.main-content__slogan .slogan-strong1 {
+  background: linear-gradient(to right, #9c3a35, #6d312f);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.main-content__slogan .slogan-strong2 {
+  background: linear-gradient(to right, #472a29, #382726);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.main-content__slogan .slogan-strong3 {
+  background: linear-gradient(to right, #332625, #2a2424);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.main-content__slogan .slogan-strong4 {
+  background: linear-gradient(to right, #242323, #232323);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .text-deco-ellipse {
@@ -336,6 +366,7 @@
   .download-box {
     flex-flow: row;
     padding-top: 60px;
+    padding-bottom: 136px;
     flex-wrap: wrap;
     max-width: 560px;
   }
