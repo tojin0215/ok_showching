@@ -30,7 +30,7 @@
 
 .main-content__slogan {
   letter-spacing: 0.17em;
-  font-size: 20.48pt;
+  font-size: 26.48rem;
   line-height: 44.9pt;
   margin: 0;
   background: linear-gradient(to right, #440806, #232323);
@@ -84,7 +84,7 @@
 }
 
 .main-content__header1 {
-  font-size: 36.02pt;
+  font-size: 48.02rem;
   line-height: 48px;
   font-weight: bold;
   letter-spacing: -0.04em;
@@ -96,7 +96,7 @@
 }
 
 .main-content__header2 {
-  font-size: 23.96pt;
+  font-size: 31.96rem;
   line-height: 48px;
   font-weight: bold;
   letter-spacing: -0.04em;
@@ -108,7 +108,7 @@
 
 .main-content__name {
   margin-bottom: -4px;
-  font-size: 78.58pt;
+  font-size: 94.58rem;
   line-height: 68.28pt;
   color: #ef4a42;
   font-weight: bold;
@@ -117,7 +117,7 @@
 }
 
 .main-content__ment-box {
-  font-size: 14.44pt;
+  font-size: 18.44rem;
   line-height: 22.14pt;
   display: flex;
   width: auto;
@@ -153,7 +153,7 @@
   width: 370px;
   margin: 4px;
   font-family: NanumSquare;
-  font-size: 13.74pt;
+  font-size: 16.74rem;
   font-weight: bold;
   letter-spacing: -0.02em;
 }
@@ -191,7 +191,7 @@
   font-family: NanumSquare;
   display: flex;
   justify-content: center;
-  font-size: 32pt;
+  font-size: 40rem;
   letter-spacing: -0.02em;
   line-height: 42.66pt;
   color: #fff;
@@ -226,12 +226,12 @@
 
 .main_service strong {
   color: #ef4a42;
-  font-size: 44.38pt;
+  font-size: 44.38rem;
   letter-spacing: -0.05em;
 }
 
 .main_service p {
-  font-size: 25.47pt;
+  font-size: 25.47rem;
   letter-spacing: -0.02em;
   text-align: center;
 }
@@ -251,18 +251,18 @@
 }
 .main_press h3 {
   text-align: center;
-  font-size: 50pt;
+  font-size: 50rem;
 }
 
 .main_press h4 {
-  font-size: 24pt;
+  font-size: 31.6rem;
   text-align: start;
   height: 120px;
   overflow: hidden;
 }
 
 .main_press p {
-  font-size: 22.11pt;
+  font-size: 22.11rem;
   text-align: start;
   height: 224px;
   overflow: hidden;
@@ -291,12 +291,12 @@
 
 /* footer720 */
 #footer {
+  font-size: 24.18rem;
   margin-top: 57px;
   padding-bottom: 30px;
 }
 #footerIn {
   position: relative;
-  width: 660px;
   margin: 0 auto;
   border-top: 1px solid #f0f0f0;
   padding-top: 60px;
@@ -550,11 +550,11 @@
   }
 
   .main_service strong {
-    font-size: 28.33pt;
+    /* font-size: 28.33pt; */
   }
 
   .main_service p {
-    font-size: 14.85pt;
+    /* font-size: 14.85pt; */
   }
 
   #container .container {
@@ -572,7 +572,7 @@
 
   .main_press ul li {
     position: relative;
-    width: 402px;
+    /* width: 402px; */
     height: 510px;
     margin-right: 23px;
   }
@@ -580,18 +580,17 @@
     margin-right: 0;
   }
   .main_press h3 {
-    /* font-size: 50pt; */
     margin-bottom: 35px;
     text-align: center;
   }
   .main_press h4 {
-    font-size: 24pt;
+    /* font-size: 24pt; */
     text-align: left;
     height: 88px;
     overflow: hidden;
   }
   .main_press p {
-    font-size: 16pt;
+    /* font-size: 16pt; */
     height: 190px;
     margin-bottom: 50px;
     text-overflow: ellipsis;
