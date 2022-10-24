@@ -21,7 +21,7 @@ html {
     Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   /* `font` 속성 리셋 */
-  font-size: 0.256vw;
+  font-size: 0.15vw;
   /* 기본 글골 사이즈 정의            : 16x => 1rem */
   font-weight: normal;
   line-height: 1.5;
@@ -35,6 +35,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   /* 웹킷 마음대로 눌림 하이라이트 막음 */
   -webkit-tap-highlight-color: transparent;
+}
+@media (min-width: 960px) {
+  html {
+    font-size: 0.072vw;
+  }
 }
 
 body {
